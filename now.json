@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "simple-nodejs-weather-app",
+    "name": "zeit-now-simple-weather",
     "builds": [
         { "src": "index.js", "use": "@now/node" }
     ]
