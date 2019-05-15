@@ -3,5 +3,7 @@
     "name": "zeit-now-simple-weather",
     "builds": [
         { "src": "index.js", "use": "@now/node" }
-    ]
+    ],
+    "env": {
+        "MY_API_KEY": "@acme-api-key"}
 }
