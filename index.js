@@ -4,6 +4,7 @@ module.exports = (req, res) => {
   const { query } = parse(req.url, true)
   const { name = 'World' } = query
   const secret = process.env.MY_API_KEY
-  res.end(`Hello ${name}!`+secret)
+  const region = process.env.NOW_REGION
+  res.end(`Hello ${name}!`+secret+region)
 }
 
